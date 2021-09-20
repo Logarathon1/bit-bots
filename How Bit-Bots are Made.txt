@@ -2,11 +2,8 @@
 OVERVIEW
 
 Bit-Bots have three main components, they are:
-
 - The style of the bot itself,
-
 - The pattern of the background, and
-
 - The colour palette used by the Bit-Bot
 
 Each of these components used are determined by the program. All randomization is seeded, meaning that given a specific seed the same set of Bit-Bots will be generated
@@ -21,4 +18,5 @@ Pattern is chosen at random. There are 14 background patterns, each supporting 1
 
 COLOUR
 
-Colour is chosen at random. Colour weighting is determined by a seperate program which also accepts a randomization seed. Colour weightings are such that most colours will have high weights and the remaining few will have lower weights, making it so that there will be a few rare colours per seed. Three colours are chosen for the Style, defined as Body Colour, Accent A and Accent B, and 1-3 colours for the Pattern, defined as Background Colour A, B, and C. Note that duplicate colours within the same Bit-Bot can occur, which can lead to some interesting patterns
+Colour is chosen at random. Colour weighting is determined by a seperate program which also accepts a randomization seed. Colour weightings are such that most colours will have high weights and the remaining few will have lower weights, making it so that there will be a few rare colours per seed. Three colours are chosen for the Style, defined as Body Colour, Accent A and Accent B, and 1-3 colours for the Pattern, defined as Background Colour A, B, and C. Note that duplicate colours within the same Bit-Bot can occur, which can lead to some interesting patterns. Available colours consist of the standard HTML keyworded colours
+
